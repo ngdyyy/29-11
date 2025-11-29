@@ -1,0 +1,56 @@
+.container {
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    width: 1000px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px black;
+}
+
+input {
+    border-radius: 10px;
+    height: 25px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
+    width: 200px;
+}
+
+
+#addbtn {
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+table {
+    width: 1000px;
+    border: 1px solid black;
+    table-layout: fixed;
+    margin-top: 30px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    height: 30px;
+}
+
+.deletebtn {
+    background-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.editbtn {
+    background-color: lightskyblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
